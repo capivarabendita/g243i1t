@@ -1,6 +1,6 @@
 function aperta(){
     while(true){
-        alert("é azul");
+        alert("virus detectado!");
     }
 
 }
