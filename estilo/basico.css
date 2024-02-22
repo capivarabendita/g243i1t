@@ -1,0 +1,10 @@
+.botao{
+    background-color: rgb(104, 0, 0);
+    color: whitesmoke;
+    text-align: center;
+    width: 50px;
+    height: 90px;
+}
+body{
+    background-color: white;
+}
