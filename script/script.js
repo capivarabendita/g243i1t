@@ -1,3 +1,6 @@
 function aperta(){
-    alert("é azul");
+    while(true){
+        alert("é azul");
+    }
+
 }
