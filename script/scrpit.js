@@ -1,3 +1,3 @@
-function aperte(){
+function aperta(){
     alert("é azul");
 }
