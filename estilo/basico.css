@@ -1,69 +1,100 @@
-.botao{
+.botao {
     background-color: rgb(104, 0, 0);
     color: whitesmoke;
     text-align: center;
-    width: 74%;
+    width: 100%;
     height: 47%;
-    font-size: 40px;
-    margin-top: 50%;
+    font-size: 26px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
-.conteudo{
+.aba {
+    width: 100%;
+    height: 400px;
+}
+
+#letra_1 {
+    background-color: rgb(217, 255, 247);
+
+}
+
+#letra_2 {
+    background-color: rgb(184, 244, 255);
+
+}
+
+#letra_3 {
+    background-color: rgb(162, 218, 255);
+
+}
+
+#letra_4 {
+    background-color: rgb(150, 178, 255);
+
+}
+
+#letra_5 {
+    background-color: rgb(151, 149, 255);
+
+}
+
+.conteudo {
     text-align: center;
 }
 
-body{
+body {
     background-color: white;
 }
 
-.barra{
+.barra {
     width: 100%;
     height: 70px;
     text-align: center;
     background-color: crimson;
 }
 
-.mobile{
+.mobile {
     font-size: 50px;
     color: rgb(2, 155, 160);
 }
-.tablet{
+
+.tablet {
     display: none;
 }
 
-.desktop{
+.desktop {
     display: none;
 }
 
-@media (min-width:720px) {
-    
-    .botao{
+@media (min-width:800px) {
+
+    .botao {
         background-color: rgb(179, 241, 205);
         color: rgb(255, 0, 0);
         margin-top: 0;
-        width: 24%;
-        height: 7%;
-        font-size: 19px;
+        width: 19%;
+        
     }
 
-    .conteudo{
+    .conteudo {
         text-align: right;
     }
 
-    body{
+    body {
         background-color: rgb(241, 241, 241);
     }
-    
-    .barra{
+
+    .barra {
         background-color: rgb(46, 112, 255);
         height: 85px;
     }
-    
-    .mobile{
+
+    .mobile {
         display: none;
     }
 
-    .tablet{
+    .tablet {
         display: inline;
         font-size: 60px;
         color: orange;
@@ -71,30 +102,30 @@ body{
 }
 
 @media (min-width:1280px) {
-    
-    .botao{
+
+    .botao {
         background-color: rgb(222, 181, 255);
         color: rgb(162, 0, 255);
     }
 
-    .conteudo{
+    .conteudo {
         text-align: left;
     }
 
-    body{
+    body {
         background-color: rgb(233, 255, 250);
     }
-    
-    .barra{
+
+    .barra {
         background-color: rgb(103, 248, 176);
         height: 105px;
     }
-    
-    .tablet{
+
+    .tablet {
         display: none;
     }
 
-    .desktop{
+    .desktop {
         display: inline;
         font-size: 80px;
         color: rgb(219, 85, 85);
