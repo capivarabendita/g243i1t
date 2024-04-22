@@ -68,8 +68,8 @@ function contar(){
 const Fila = () => {
     let dados = [];
 
-    inserir = valor2 => {
-        dados.push(valor2);
+    inserir = valor => {
+        dados.push(valor);
         imprimir();
     }
 
@@ -100,15 +100,15 @@ let fila = Fila();
 
 
 document.querySelector("#btninserir").onclick = function () {
-    fila.inserir(document.getElementById("valor2").value);
-    document.getElementById("valor2").value = "";
-    document.getElementById("valor2").focus();
+    fila.inserir(document.getElementById("valor").value);
+    document.getElementById("valor").value = "";
+    document.getElementById("valor").focus();
 };
 document.querySelector("#valor").onkeyup = function (e) {
     if (e.keyCode == 13) {
-        fila.inserir(document.getElementById("valor2").value);
-        document.getElementById("valor2").value = "";
-        document.getElementById("valor2").focus();
+        fila.inserir(document.getElementById("valor").value);
+        document.getElementById("valor").value = "";
+        document.getElementById("valor").focus();
     };
 };
 document.querySelector("#btnremover").onclick = function () {
